@@ -5,7 +5,7 @@ export default function estado() {
     
     const [Cumprim, SetCumprim] = useState('');
     const [escolha, SetEscolha] = useState('');
-    const [selecionado,setSelecionado] = useState(false);
+    const [selecionado, setSelecionado] = useState(false);
 
     return(
         <section>
@@ -18,9 +18,8 @@ export default function estado() {
             <div>
                 <h3>{escolha}</h3>
                 <select value={escolha} onChange={e => SetEscolha(e.target.value)}>
-                    
                     <option>JavaScript</option>
-                    <option>Csharp</option>
+                    <option>Cshar dsp</option>
                 </select>
 
                 <div>
