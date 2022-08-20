@@ -24,7 +24,7 @@ export default function estado() {
                 </select>
 
                 <div>
-                    <h3>Selecionado?rfsdgdfg</h3> {selecionado}
+                    <h3>Selecionado?rfscxddgdfg teste</h3> {selecionado}
                     <div>{selecionado == true &&
                         <div> <p>SIM</p> </div> }
                     </div>
